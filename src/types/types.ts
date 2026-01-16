@@ -23,11 +23,11 @@ export interface projectListing {
 }
 
 export interface LocationType {
-  name: string
+  name?: string
   lat: number
   lon: number
-  distance: number
-  duration: number
+  distance?: number
+  duration?: number
   googlePlaceId?: string
 }
 
